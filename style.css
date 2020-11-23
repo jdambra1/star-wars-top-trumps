@@ -1,0 +1,50 @@
+body {
+  padding: 25px;
+  background-color: black;
+  background-size: 100% auto;
+  color: #fff;
+}
+
+img {
+  width: 35%;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: "Kavoon", cursive;
+}
+
+.card {
+  height: 250px;
+}
+
+.row {
+  margin: 25px auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.card-action {
+  height: 25px;
+}
+
+#buttons button {
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+}
+
+#result {
+  margin: 50px 0 auto;
+  text-align: center;
+  font-size: 2em;
+  height: 50px;
+  font-family: "Bangers", cursive;
+}
+
+#newBtn {
+  margin-top: 25px;
+  text-align: center;
+}

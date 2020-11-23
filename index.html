@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Wars Top Trumps</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kavoon"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bangers"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="image" class="center-align container">
+      <img
+        class="responsive-image"
+        src="http://vignette2.wikia.nocookie.net/logopedia/images/5/5b/Star-Wars-Logo_Silver.png/revision/latest?cb=20151106011636"
+      />
+      <h3>Top Trumps</h3>
+    </div>
+
+    <div class="wrapper">
+      <div class="row">
+        <div class="col s6 m4 offset-m1">
+          <div class="card blue-grey darken-1">
+            <div class="card-action">Player Card</div>
+            <div id="player" class="card-content white-text"></div>
+          </div>
+        </div>
+        <div id="buttons" class="col s2">
+          <h6 class="center-align">Compare:</h6>
+          <button id="cost" class="waves-effect waves-light btn">Cost</button>
+          <button id="max" class="waves-effect waves-light btn">
+            Max Atmos Spd
+          </button>
+          <button id="hyper" class="waves-effect waves-light btn">
+            Hyperdrive Rtg
+          </button>
+          <button id="MGLT" class="waves-effect waves-light btn">MGLT</button>
+        </div>
+        <div class="col s6 m4">
+          <div class="card blue-grey darken-1">
+            <div class="card-action">Computer's Card</div>
+            <div id="computer" class="card-content white-text hidden"></div>
+          </div>
+        </div>
+      </div>
+      <div id="result"></div>
+      <div id="newBtn">
+        <button id="newGame" class="waves-effect waves-light btn">
+          New Game
+        </button>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.1.1.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
