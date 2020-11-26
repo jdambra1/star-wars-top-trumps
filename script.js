@@ -3,7 +3,7 @@ console.log("connected");
 let playerURL, compURL, playShip, compShip;
 
 function getURL() {
-  let link = "http://swapi.dev/api/starships/";
+  let link = "https://swapi.dev/api/starships/";
   let arr = [2, 3, 5, 9, 10, 11, 12, 13, 15, 21, 22, 23];
   let playRandom = Math.floor(Math.random() * 12);
   return link + arr[playRandom];
